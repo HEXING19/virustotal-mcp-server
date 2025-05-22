@@ -1,0 +1,30 @@
+{
+  "name": "virustotal-mcp-server",
+  "version": "1.0.0",
+  "description": "MCP server for VirusTotal API integration",
+  "type": "module",
+  "main": "dist/index.js",
+  "scripts": {
+    "build": "tsc",
+    "start": "ts-node --esm src/index.ts",
+    "dev": "ts-node --esm src/index.ts"
+  },
+  "keywords": [
+    "mcp",
+    "virustotal",
+    "api"
+  ],
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "@modelcontextprotocol/sdk": "^1.10.1",
+    "axios": "^1.8.4",
+    "dotenv": "^16.5.0",
+    "zod": "^3.24.3"
+  },
+  "devDependencies": {
+    "@types/node": "^20.17.30",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.8.3"
+  }
+}
